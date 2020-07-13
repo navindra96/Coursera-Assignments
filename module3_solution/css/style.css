@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+}
+body{
+    background-color:thistle;
+}
+
+#header-nav{
+    background-color:darkorange;
+    border-radius: 0;
+    border: 0;
+    height: auto;
+}
+#brand-name{
+    color:white;
+    font-family: 'Raleway', sans-serif;
+    margin: 0 0 5px 0;
+    font-size:2.5em;  
+}
+
+#brand-name:hover{
+    font-weight: bold;
+}
+.menu-bar{
+    color:wheat;
+}
+.navbar-toggle {
+    border-radius: 4px;
+  }
+.navbar-toggle .icon-bar {
+    display: block;
+    width: 23px;
+    height: 3px;
+    border-radius: 2px ;
+  }
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+    border:2px solid black;
+}
+.card{
+    border:1px solid black;
+    padding:14px;
+    margin-bottom: 10px;
+    margin-right:3px;
+    text-align:justify;
+    box-shadow: dimgray 4px 2px;
+}
+.card h2{
+    text-align: center;
+    margin-top: 2px;
+    background-color: tomato;
+    border-bottom-left-radius: 18px;
+    border-top-right-radius: 18px;
+    color: cornsilk;
+}
+#chicken .card h2{
+    background-color: brown;
+}
+#beef .card h2{
+    background-color:chocolate;
+}
+li{
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Mukta', sans-serif;
+    
+}
+.navbar-default .navbar-nav>li>a,.navbar-default .navbar-nav>li>a:hover {
+    color: white;
+}
+li:hover{
+    background-color:tomato;
+    color: white;
+}
+.navbar-default .navbar-toggle:focus{
+    background-color: transparent;
+}
+.navbar-default .navbar-toggle:hover {
+    background-color: tomato;
+}
+.title{
+    text-align: center;
+    margin-top: 2px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 15px;
+    font-size: 2.5em;
+}
+#sushi {
+    padding-bottom: 20px;
+}
