@@ -1,0 +1,8 @@
+title: Coursera-assignmnts
+description: Solutions of "html,css and js" course assignments
+google_analytics: 
+show_downloads: true
+theme: jekyll-theme-cayman
+
+gems:
+  - jekyll-mentions
